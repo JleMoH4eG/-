@@ -243,8 +243,10 @@ body {
 		box-shadow: 0px 20px 40px -27px rgba(0, 0, 0, 0.15);
 		transition: 0.1s;
 		cursor: pointer;
-		&:hover {
-			transform: rotate(2deg);
+		@media (min-width: 768px) {
+			&:hover {
+				transform: rotate(2deg);
+			}
 		}
 		&:active {
 			transform: scale(0.9);
@@ -649,8 +651,10 @@ body {
 		margin: 0 auto 60px auto;
 		cursor: pointer;
 		transition: transform 0.2s, margin 0.5s;
-		&:hover {
-			transform: rotate(2deg);
+		@media (min-width: 768px) {
+			&:hover {
+				transform: rotate(2deg);
+			}
 		}
 		&:active {
 			transform: scale(0.9);
@@ -849,9 +853,11 @@ body {
 	&__link {
 		a {
 			display: inline-block;
-			&:hover {
-				color: #018FA3;
-				transition: scale 0.1s, color 0.2s;
+			@media (min-width: 768px) {
+				&:hover {
+					color: #018FA3;
+					transition: scale 0.1s, color 0.2s;
+				}
 			}
 			&:active {
 				transform: scale(0.9);
