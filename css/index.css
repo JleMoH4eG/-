@@ -281,7 +281,7 @@ body {
   transition: 0.1s;
   cursor: pointer;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .about__header-button:hover {
     -webkit-transform: rotate(2deg);
             transform: rotate(2deg);
@@ -683,7 +683,7 @@ body {
   transition: transform 0.2s, margin 0.5s;
   transition: transform 0.2s, margin 0.5s, -webkit-transform 0.2s;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .catalog__slider-item-button:hover {
     -webkit-transform: rotate(2deg);
             transform: rotate(2deg);
@@ -911,7 +911,7 @@ body {
 .footer__link a {
   display: inline-block;
 }
-@media (min-width: 768px) {
+@media (hover: hover) {
   .footer__link a:hover {
     color: #018FA3;
     -webkit-transition: scale 0.1s, color 0.2s;
